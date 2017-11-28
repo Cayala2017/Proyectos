@@ -1,0 +1,46 @@
+V:\ServiciosMataSanos\BL\bin\Debug\BL.dll
+V:\ServiciosMataSanos\BL\bin\Debug\BL.pdb
+V:\ServiciosMataSanos\BL\bin\Debug\DAL.dll
+V:\ServiciosMataSanos\BL\bin\Debug\EN.dll
+V:\ServiciosMataSanos\BL\bin\Debug\DAL.pdb
+V:\ServiciosMataSanos\BL\bin\Debug\EN.pdb
+V:\ServiciosMataSanos\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+V:\ServiciosMataSanos\BL\obj\Debug\BL.dll
+V:\ServiciosMataSanos\BL\obj\Debug\BL.pdb
+F:\ServiciosMataSanos\BL\bin\Debug\BL.dll
+F:\ServiciosMataSanos\BL\bin\Debug\BL.pdb
+F:\ServiciosMataSanos\BL\bin\Debug\DAL.dll
+F:\ServiciosMataSanos\BL\bin\Debug\EN.dll
+F:\ServiciosMataSanos\BL\bin\Debug\DAL.pdb
+F:\ServiciosMataSanos\BL\bin\Debug\EN.pdb
+F:\ServiciosMataSanos\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+F:\ServiciosMataSanos\BL\obj\Debug\BL.dll
+F:\ServiciosMataSanos\BL\obj\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\BL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\obj\Debug\BL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\BL\obj\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\BL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\BL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\BL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\DAL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\EN.dll
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\DAL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\BL\bin\Debug\EN.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\BL\obj\Debug\BL.pdb

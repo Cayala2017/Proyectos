@@ -1,0 +1,45 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.InicioEnfermera"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      
+        Title="InicioEnfermera" Height="720" Width="1280">
+  
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="258*"/>
+            <RowDefinition Height="431*"/>
+        </Grid.RowDefinitions>
+        <Controls:Tile Margin="48,174,1030,375" Height="Auto" Width="Auto" Grid.RowSpan="2">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/4.png"/>
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Controls:Tile Margin="63,104,1030,187" Height="Auto" Width="Auto" Grid.Row="1" Click="Tile_Click">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/2.png"/>
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Controls:Tile Height="Auto" Margin="287,74,755,187" Width="Auto" Grid.Row="1" Click="Tile_Click_1" >
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/1.png"/>
+            </Controls:Tile.Background>
+            <Label x:Name="label" Content="" Height="81" Width="96"/>
+        </Controls:Tile>
+        <Controls:Tile Margin="310,184,768,375" Height="Auto" Width="Auto" Grid.RowSpan="2">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/3.png"/>
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Label x:Name="labe21" Content="Medicos" HorizontalAlignment="Left" Margin="353,43,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF00A0DF" FontSize="24" FontWeight="Bold" Width="116" Grid.Row="1"/>
+        <Label x:Name="label1" Content="Historiales" HorizontalAlignment="Left" Margin="340,244,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF00A0DF" FontSize="24" FontWeight="Bold" Grid.Row="1"/>
+        <Label x:Name="label0" Content="Pacientes" HorizontalAlignment="Left" Margin="88,244,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF00A0DF" FontSize="24" FontWeight="Bold" Grid.Row="1"/>
+        <Label x:Name="label1_Copy" Content="Visita Medica" HorizontalAlignment="Left" Margin="63,43,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF00A0DF" FontSize="24" FontWeight="Bold" Grid.Row="1"/>
+    </Grid>
+</Controls:MetroWindow>

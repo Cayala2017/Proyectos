@@ -1,0 +1,38 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.Visita_Medica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+         xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Visita Medica" Height="498.496" Width="974.436" Loaded="MetroWindow_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <ComboBox x:Name="cbmedico" Controls:TextBoxHelper.Watermark="Medico" HorizontalAlignment="Left" Margin="73,36,0,0" VerticalAlignment="Top" Width="143"/>
+        <ComboBox x:Name="cbpaciente" Controls:TextBoxHelper.Watermark="Paciente" HorizontalAlignment="Left" Margin="73,88,0,0" VerticalAlignment="Top" Width="143"/>
+        <DatePicker x:Name="dpFechavisita" HorizontalAlignment="Left" Margin="73,202,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtdiagnostico" HorizontalAlignment="Left" Height="101" Margin="73,264,0,0" TextWrapping="Wrap" Controls:TextBoxHelper.Watermark="Diagnostico de Paciente" Text="" VerticalAlignment="Top" Width="225"/>
+        <Button x:Name="btnagregar" Content="Agregar" HorizontalAlignment="Left" Margin="346,75,0,0" VerticalAlignment="Top" Width="75" Click="btnagregar_Click" Background="#FFF91212" Foreground="White"/>
+        <!--<Button x:Name="btnmodificar" Content="Modificar" HorizontalAlignment="Left" Margin="346,138,0,0" VerticalAlignment="Top" Width="75" Click="btnmodificar_Click" Background="#FFFE0000" Foreground="White"/>-->
+        <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" Margin="81,383,0,0" VerticalAlignment="Top" Width="75" Background="#FFFE0000" Foreground="White" Click="btnbuscar_Click"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="dgvista" Margin="426,0,0,0" BorderBrush="#FFFF002E" Height="459" VerticalAlignment="Top" HorizontalAlignment="Left" Width="542" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding FechaVisita}" Header="fecha" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding HoraVisita}" Header="hora" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FkMedico}" Header="Medico" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FkPacienteCama}" Header="Paciente" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DatePicker x:Name="txtbuscar" HorizontalAlignment="Left" Margin="184,386,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txthora" Controls:TextBoxHelper.Watermark="Hora de visita" HorizontalAlignment="Left" Height="23" Margin="73,145,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143"/>
+        <Label x:Name="label" Content="Medico" HorizontalAlignment="Left" Margin="73,10,0,0" VerticalAlignment="Top" Width="50" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Paciente" HorizontalAlignment="Left" Margin="73,62,0,0" VerticalAlignment="Top" Width="61" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="Hora de Visita" HorizontalAlignment="Left" Margin="73,119,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+        <Label x:Name="label3" Content="fecha de Visita" HorizontalAlignment="Left" Margin="73,171,0,0" VerticalAlignment="Top" Width="92" FontWeight="Bold"/>
+        <Label x:Name="label4" Content="Diagnostico" HorizontalAlignment="Left" Margin="73,233,0,0" VerticalAlignment="Top" Width="83" FontWeight="Bold"/>
+    </Grid>
+</Controls:MetroWindow>

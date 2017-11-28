@@ -1,0 +1,269 @@
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe.config
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.dll
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.pdb
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.xml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csprojResolveAssemblyReference.cache
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Resources\Icons.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\App.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.cache
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.lref
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\App.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.g.resources
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Properties.Resources.resources
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.GenerateResource.Cache
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.baml
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Correo.resources
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.g.cs
+C:\Users\lol\Desktop\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe.config
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Resources\Icons.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\App.g.cs
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.cache
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.lref
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.dll
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.pdb
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.xml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\App.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.baml
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.g.resources
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Correo.resources
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Properties.Resources.resources
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.GenerateResource.Cache
+C:\Users\lol\Desktop\Nueva carpeta (3)\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csprojResolveAssemblyReference.cache
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe.config
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.pdb
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.dll
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.pdb
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.xml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Resources\Icons.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\App.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.cache
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.lref
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\App.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.g.resources
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Correo.resources
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Properties.Resources.resources
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.GenerateResource.Cache
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\IniciodeSesion.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\IniciodeSesion.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Enfermera.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InicioEnfermera.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Plantas_Camas.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Enfermera.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InicioEnfermera.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Plantas_Camas.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csprojResolveAssemblyReference.cache
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Usuario.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Usuario.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\ListadeHistorias.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\ListadeHistorias.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Home.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\Home.baml
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\ListadeMedicos.g.cs
+C:\Users\lol\Desktop\copia de interfaz matasano\Matasanos\InterfacesMatasanos\obj\Debug\ListadeMedicos.baml
+D:\Matasanos\InterfacesMatasanos\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe.config
+D:\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.exe
+D:\Matasanos\InterfacesMatasanos\bin\Debug\InterfacesMatasanos.pdb
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MetroFramework.Design.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MetroFramework.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MetroFramework.Fonts.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\System.Windows.Interactivity.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\EnvDTE.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.Build.Framework.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\stdole.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\EnvDTE80.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\VSLangProj.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\VSLangProj80.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.WCFReference.Interop.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Newtonsoft.Json.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.MSXML.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\VSLangProj2.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.pdb
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MahApps.Metro.xml
+D:\Matasanos\InterfacesMatasanos\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Matasanos\InterfacesMatasanos\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.VisualStudio.Data.Services.resources.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\es\Microsoft.VisualStudio.Data.Core.resources.dll
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csprojResolveAssemblyReference.cache
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.InterfacesMatasanos.exe.config
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Resources\Icons.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Resources\IconsNonShared.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Enfermera.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InicioEnfermera.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\ListadeHistorias.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\ListadeMedicos.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Plantas_Camas.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Reporte11.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Usuario.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\App.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_Content.g.cs
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.cache
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos_MarkupCompile.lref
+D:\Matasanos\InterfacesMatasanos\obj\Debug\App.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\AsignacionCama.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Enfermera.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Historia1.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Inicio.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InicioEnfermera.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\ListadeHistorias.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\ListadeMedicos.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\MainWindow.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Medicos.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Pacientes.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\PacientesLista.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Plantas_Camas.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Reporte11.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Usuario.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\Visita_Medica.baml
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.g.resources
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.Properties.Resources.resources
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.PruebadeReporte.resources
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.GenerateResource.Cache
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.csproj.CoreCompileInputs.cache
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.exe
+D:\Matasanos\InterfacesMatasanos\obj\Debug\InterfacesMatasanos.pdb
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MaterialDesignColors.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Matasanos\InterfacesMatasanos\bin\Debug\MaterialDesignThemes.Wpf.xml

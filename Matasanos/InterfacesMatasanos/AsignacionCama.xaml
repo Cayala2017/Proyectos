@@ -1,0 +1,67 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.AsignacionCama"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="AsignacionCama" Height="575.48" Width="1137.024" Initialized="MetroWindow_Initialized" Loaded="MetroWindow_Loaded" >
+    <Grid Margin="0,1,0,-1">
+        <GroupBox Margin="10,3,641,230" Header="DATOS DEL PACIENTE" Background="#FFFE0000">
+            <Canvas>
+
+                <ComboBox x:Name="ccama" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" RenderTransformOrigin="0.5,0.5" Height="30" BorderBrush="#FF686464" Canvas.Left="25" Canvas.Top="154">
+                    <ComboBox.Background>
+                        <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                            <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                            <GradientStop Color="White" Offset="1"/>
+                        </LinearGradientBrush>
+                    </ComboBox.Background>
+                    <ComboBox.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-0.135"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ComboBox.RenderTransform>
+                </ComboBox>
+                <Label x:Name="label" Content="Fecha Asignación" Canvas.Left="29" Canvas.Top="10" FontWeight="Bold"/>
+                <Label x:Name="label1" Content="Historial" Canvas.Left="29" Canvas.Top="68" FontWeight="Bold"/>
+                <Label x:Name="label2" Content="Cama" Canvas.Left="29" Canvas.Top="129" FontWeight="Bold"/>
+            </Canvas>
+        </GroupBox>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}"/>
+        <TextBox x:Name="txteliminar" HorizontalAlignment="Left" Height="23" Margin="41,246,0,0" TextWrapping="Wrap" Text="" Controls:TextBoxHelper.Watermark="Eliminar por Fecha de Asignacion" VerticalAlignment="Top" Width="185" BorderBrush="#FFF30202"/>
+        <TextBox x:Name="txtbuscar" Controls:TextBoxHelper.Watermark="Buscar por ID" HorizontalAlignment="Left" Height="23" Margin="41,433,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="185" BorderBrush="#FFF30202"/>
+        <DatePicker x:Name="txtfecha" HorizontalAlignment="Left" Margin="41,71,0,0" VerticalAlignment="Top" BorderBrush="Red"/>
+        <Button x:Name="btnagregar" Content="Agregar" HorizontalAlignment="Left" Margin="343,71,0,0" VerticalAlignment="Top" Width="87" Click="btnagregar_Click" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnmodificar" Content="Modificar" HorizontalAlignment="Left" Margin="343,154,0,0" VerticalAlignment="Top" Width="87" Click="btnmodificar_Click" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="343,246,0,0" VerticalAlignment="Top" Width="87" Click="btneliminar_Click" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" Margin="264,433,0,0" VerticalAlignment="Top" Width="75" Click="btnbuscar_Click" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="button4" Content="Atras" HorizontalAlignment="Left" Margin="395,430,0,0" VerticalAlignment="Top" Width="75" Click="button4_Click" Background="#FFFE0000" Foreground="White"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="DGPacienteCama" Margin="537,10,0,0" BorderBrush="#FFFF002E" Height="311" VerticalAlignment="Top" HorizontalAlignment="Left" Width="562" MouseDoubleClick="DGPacienteCama_MouseDoubleClick"  >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdPacienteCama}" Header="codigo" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FechaAsignacion}" Header="Fecha de Asignacion" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FkCama}" Header="Cama" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FkHistoria}" Header="Historial" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" x:Name="DGCAMA" Margin="668,334,0,0" BorderBrush="#FFFF002E" Height="200" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdCama}" Header="Codigo de Cama" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FkPlanta}" Header="codigo de planta" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="chistorial" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="41,127,0,0" Height="31" SelectionChanged="chistorial_SelectionChanged"/>
+    </Grid>
+</Controls:MetroWindow>

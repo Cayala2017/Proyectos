@@ -1,0 +1,46 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.Pacientes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      
+        Title="Pacientes" Height="770" Width="1370" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox x:Name="txtbuscar" HorizontalAlignment="Left" Height="30" Margin="108,534,0,0" TextWrapping="Wrap" Text="" Controls:TextBoxHelper.Watermark="Buscar por DNI" VerticalAlignment="Top" Width="207" Background="#FFFBFBFB" BorderBrush="#FFFE0000" Foreground="#FF060000"/>
+
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}"/>
+        <TextBox x:Name="txtdni" HorizontalAlignment="Left" Height="30" Margin="292,211,0,0" TextWrapping="Wrap" Text="" Controls:TextBoxHelper.Watermark="DNI" VerticalAlignment="Top" Width="152" Background="#FFFBFBFB" BorderBrush="#FFFE0000" Foreground="#FF060000"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Height="30" Margin="76,108,0,0" TextWrapping="Wrap" Text="" Controls:TextBoxHelper.Watermark="Nombre" VerticalAlignment="Top" Width="152" Background="#FFFBFBFB" BorderBrush="#FFFE0000" Foreground="#FF060000"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Height="29" Margin="292,108,0,0" TextWrapping="Wrap" Text="" Controls:TextBoxHelper.Watermark="Apellido" VerticalAlignment="Top" Width="152" Background="#FFFBFBFB" BorderBrush="#FFFE0000" Foreground="#FF060000"/>
+        <DatePicker x:Name="Fecha" HorizontalAlignment="Left" Margin="76,211,0,0" VerticalAlignment="Top" Width="152" Height="30" Background="#FFF9F9F9" BorderBrush="#FFFE0000"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="129,366,0,0" VerticalAlignment="Top" Width="99" Click="btnAgregar_Click" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnmodificar" Content="Modificar" HorizontalAlignment="Left" Margin="292,366,0,0" VerticalAlignment="Top" Width="99" Click="btnmodificar_Click" Background="#FFFE0000" Foreground="White" />
+        <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" Margin="354,534,0,0" VerticalAlignment="Top" Width="113" Click="btnbuscar_Click" Background="#FFFE0000" Foreground="White" />
+        <DataGrid AutoGenerateColumns="False" x:Name="DGHistorial" Margin="557,0,0,0" BorderBrush="#FFFF002E" Height="741" VerticalAlignment="Top" HorizontalAlignment="Left" Width="753" MouseDoubleClick="DGHistorial_MouseDoubleClick" SelectionChanged="DGHistorial_SelectionChanged" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdNumeroSeguro}" Header="Numer Seguro" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellidos" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombres" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Dni}" Header="Dni" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FechaNacimiento}" Header="Nacimiento" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="button" Content="Atras" HorizontalAlignment="Left" Margin="46,685,0,0" VerticalAlignment="Top" Width="165" Click="button_Click" Background="#FFFE0000" Foreground="White"/>
+        <Label x:Name="label" HorizontalAlignment="Left" Margin="116,77,0,0" VerticalAlignment="Top" Width="66">
+            <Label x:Name="label_Copy1" Content="Nombre" HorizontalAlignment="Left" VerticalAlignment="Top" Width="66" FontWeight="Bold"/>
+        </Label>
+        <Label x:Name="label_Copy" Content="Apellido" HorizontalAlignment="Left" Margin="338,77,0,0" VerticalAlignment="Top" Width="66" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Content="Fecha" HorizontalAlignment="Left" Margin="129,180,0,0" VerticalAlignment="Top" Width="82" FontWeight="Bold"/>
+        <Label x:Name="label_Copy3" Content="DNI" HorizontalAlignment="Left" Margin="354,180,0,0" VerticalAlignment="Top" Width="66" FontWeight="Bold"/>
+        <ComboBox x:Name="cbEstado" HorizontalAlignment="Left" Margin="218,290,0,0" VerticalAlignment="Top" Width="150" Height="28" BorderBrush="Red"/>
+        <Label x:Name="label1" Content="Estado" HorizontalAlignment="Left" Margin="144,290,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,85 @@
+V:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+V:\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+V:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+V:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+F:\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+F:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+F:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+F:\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+F:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+H:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll.config
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.dll
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\MataSanosWCF.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.dll
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\BL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\EN.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\bin\Debug\DAL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csprojResolveAssemblyReference.cache
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.csproj.CoreCompileInputs.cache
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.dll
+D:\Sistema Arreglado\ServiciosMataSanos\MataSanosWCF\obj\Debug\MataSanosWCF.pdb

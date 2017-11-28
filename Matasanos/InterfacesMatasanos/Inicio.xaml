@@ -1,0 +1,214 @@
+﻿<Controls:MetroWindow x:Name="metroWindow" x:Class="InterfacesMatasanos.Inicio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+       
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="16"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        
+        FontFamily="{DynamicResource MaterialDesignFont}"             
+                      
+                      
+                      
+                      
+        Title="Inicio" Height="770" Width="1370" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FF81BAD8" Loaded="metroWindow_Loaded">
+    <Controls:MetroWindow.Resources>
+        <Storyboard x:Key="Storyboard1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="1.008"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="3"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-15.899"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Controls:MetroWindow.Resources>
+    <Controls:MetroWindow.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource Storyboard1}"/>
+        </EventTrigger>
+    </Controls:MetroWindow.Triggers>
+    <Grid x:Name="grid" RenderTransformOrigin="0.5,0.5">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.Background>
+            <ImageBrush ImageSource="IMG/Fondo 2.jpg"/>
+        </Grid.Background>
+
+        <DataGrid AutoGenerateColumns="False" x:Name="DGUser" Height="150" VerticalAlignment="Top" Canvas.Left="470" HorizontalGridLinesBrush="White"  GridLinesVisibility="Horizontal"  OpacityMask="White" FontWeight="Bold" FontFamily="Lucida Bright" FontStyle="Italic" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" Margin="995,10,12,0" SelectionChanged="DGUser_SelectionChanged" Background="{x:Null}" >
+            <DataGrid.BindingGroup>
+                <BindingGroup/>
+            </DataGrid.BindingGroup>
+            <DataGrid.Foreground>
+                <SolidColorBrush Color="White"/>
+            </DataGrid.Foreground>
+            <DataGrid.Effect>
+                <DropShadowEffect/>
+            </DataGrid.Effect>
+            <DataGrid.Columns>
+
+
+                
+                <DataGridTemplateColumn Header="" IsReadOnly="True" Width="110">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Imagen}" Width="70" Height="70"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Nombre}" Header="" IsReadOnly="True" Width="250"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+        <Controls:Tile Height="Auto" Margin="908,292,240,289" Width="Auto" Content="&#xD;&#xA;" ToolTip="Enfermeras" Click="Tile_Click_6">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/Enfermeras.png"/>
+            </Controls:Tile.Background>
+        </Controls:Tile>
+
+        <Controls:Tile x:Name="TileDoctores" Height="Auto" Margin="248,292,896,297" Width="Auto" Click="TileDoctores_Click" ToolTip="Doctores">
+            <Controls:Tile.Background>
+                <ImageBrush ImageSource="IMG/Historial.png"/>
+            </Controls:Tile.Background>
+        </Controls:Tile>
+        <Controls:Flyout Background="#FF2F7FCD" Foreground="White" Position="Top" x:Name="FlyEnfermeras" Height="711" Margin="0,30,0,0" d:IsHidden="True">
+            <Canvas Width="975"
+    >
+
+
+                <Rectangle x:Name="DibujoEnfermera" Height="260" Width="250" Canvas.Left="-136" Canvas.Top="231" d:IsHidden="True">
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="IMG/EnfermeraDedo.gif"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <materialDesign:Chip x:Name="ChipEnfermera"  Content="Ahora, Ingresa a la Enfermera como Usuario" Width="305" Canvas.Left="94" Canvas.Top="261" Height="50" IconBackground="#FF7349BD" Background="#FF264868"/>
+
+                <StackPanel x:Name="StackEnfermera" materialDesign:ColorZoneAssist.Mode="PrimaryMid" Width="590" Height="675" Canvas.Left="-176" Background="#FF36576A" Canvas.Top="26"/>
+                <TextBox x:Name="txtDui_Enfermera"  HorizontalAlignment="Left" Height="45" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225" BorderBrush="White" Canvas.Left="-1" Canvas.Top="51" materialDesign:HintAssist.Hint="Dui" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" />
+                <TextBox x:Name="txtNombre_Enfermera"  HorizontalAlignment="Left" Height="45" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225" BorderBrush="White" Canvas.Left="-131" Canvas.Top="116" materialDesign:HintAssist.Hint="Nombres" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" />
+                <TextBox x:Name="txtApellido_Enfermera"  HorizontalAlignment="Left" Height="50" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="225" BorderBrush="White" Canvas.Left="139" Canvas.Top="111" materialDesign:HintAssist.Hint="Apellidos" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" />
+                <Button x:Name="btnagregarEnfermera" Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="392" Background="#FFFE0000" Foreground="White"  materialDesign:ShadowAssist.ShadowDepth="Depth3" Canvas.Left="-78" Canvas.Top="606" Click="btnagregarEnfermera_Click" />
+                <DataGrid AutoGenerateColumns="False" x:Name="dgvista" BorderBrush="White" Height="360" VerticalAlignment="Top" HorizontalAlignment="Left" Width="530" Canvas.Left="-151" Canvas.Top="241" Background="{x:Null}" AlternatingRowBackground="#FF177BDC" AreRowDetailsFrozen="True" RowBackground="#FF1663AE" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding DUI}" Header="DUI" IsReadOnly="True" Width="100"/>
+                        <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombre" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellido" IsReadOnly="True" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <StackPanel x:Name="StackUsuarioEnfermera" materialDesign:ColorZoneAssist.Mode="PrimaryMid" Width="610" Height="675" Canvas.Left="499" Background="#FF174159" Canvas.Top="26">
+                    <Canvas x:Name="USUARIO">
+                        <Button x:Name="btnAgregarUsuario"  Content="Agregar" Style="{DynamicResource MaterialDesignRaisedAccentButton}" HorizontalAlignment="Left" VerticalAlignment="Top" Width="240"  Foreground="White" materialDesign:ShadowAssist.ShadowDepth="Depth3" Canvas.Left="190" Canvas.Top="525" Height="37" Background="#FFFF1414" BorderBrush="#FF2F7FCD" Click="btnAgregarUsuario_Click" />
+                        <materialDesign:Chip Width="40" Icon="" Height="50" Canvas.Left="140" Canvas.Top="225" Background="{x:Null}">
+                            <materialDesign:Chip.IconBackground>
+                                <ImageBrush ImageSource="IMG/user.png"/>
+                            </materialDesign:Chip.IconBackground>
+                        </materialDesign:Chip>
+                        <TextBox x:Name="txtIDuiU" Height="55" Text=""  BorderBrush="White" materialDesign:HintAssist.Hint="Dui de la Enfermera" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" Canvas.Left="195" Width="220" Canvas.Top="20" />
+                        <TextBox x:Name="txtPassU" Height="55" Text=""  BorderBrush="White" materialDesign:HintAssist.Hint="Password" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" Canvas.Left="185" Canvas.Top="315" Width="255" />
+                        <TextBox x:Name="txtNombreUserE" Height="55" Text=""  BorderBrush="White" materialDesign:HintAssist.Hint="Nombre de Usuario" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" Canvas.Left="185" Canvas.Top="210" Width="255" />
+                        <materialDesign:Chip Width="40" Icon="" Height="50" Canvas.Left="140" Canvas.Top="335" Background="{x:Null}">
+                            <materialDesign:Chip.IconBackground>
+                                <ImageBrush ImageSource="IMG/pass.png"/>
+                            </materialDesign:Chip.IconBackground>
+                        </materialDesign:Chip>
+                    </Canvas>
+                </StackPanel>
+
+
+
+
+
+                <materialDesign:Chip x:Name="ChipEnfermera2" Content="Asi, Podra ingresar al sistema." Width="235" Canvas.Left="164" Canvas.Top="331" Height="50" IconBackground="#FF59555F" Background="#FF7DA4C9"/>
+
+
+
+            </Canvas>
+        </Controls:Flyout>
+
+
+        <Controls:Flyout Background="#FF1F50A4" d:IsHidden="True">
+            <Canvas Width="1370">
+                <TextBox x:Name="txtid_p" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="152" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}"/>
+                <DataGrid AutoGenerateColumns="False" x:Name="DGHistorial" BorderBrush="#FFFF002E" Height="400" VerticalAlignment="Top" HorizontalAlignment="Left" Width="765"  Canvas.Top="125" >
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding IdNumeroSeguro}" Header="Numer Seguro" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellidos" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombres" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding Dni}" Header="Dni" IsReadOnly="True" Width="150"/>
+                        <DataGridTextColumn Binding="{Binding FechaNacimiento}" Header="Nacimiento" IsReadOnly="True" Width="150"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Canvas>
+        </Controls:Flyout>
+
+
+        <Controls:Flyout Background="#FF2D2C4D" Foreground="White" Position="Bottom" x:Name="Fly" Height="708" d:IsHidden="True">
+            <Canvas Width="1278"
+                    >
+                <TextBox x:Name="txtid"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}" Canvas.Left="327"/>
+                <TextBox x:Name="txtapellido"  HorizontalAlignment="Left" Height="45" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" BorderBrush="White" Canvas.Left="241" Canvas.Top="62" materialDesign:HintAssist.Hint="Apellidos" materialDesign:HintAssist.IsFloating="True" SelectionBrush="White" CaretBrush="White" />
+                <TextBox x:Name="txtnombreusuario"  HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" BorderBrush="White" Canvas.Left="-19" Canvas.Top="137" materialDesign:HintAssist.Hint="Nombre de Usuario" materialDesign:HintAssist.IsFloating="True"/>
+                <TextBox x:Name="txtbuscar"   HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167" BorderBrush="#FFFE0000" Canvas.Left="51" Canvas.Top="527"/>
+                <TextBox x:Name="txteliminar"   HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="165" BorderBrush="#FFFE0000" Canvas.Left="51" Canvas.Top="576"/>
+                <PasswordBox x:Name="txtcontr" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" BorderBrush="White" Canvas.Left="241" Canvas.Top="132" materialDesign:HintAssist.Hint="Contraseña" materialDesign:HintAssist.IsFloating="True" Height="45"/>
+                <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112"  Foreground="White" Background="#FFFE0000" Canvas.Left="265" Canvas.Top="527" materialDesign:ShadowAssist.ShadowDepth="Depth3" />
+                <Button x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Background="#FFFE0000" Foreground="White" Canvas.Left="265" Canvas.Top="569" materialDesign:ShadowAssist.ShadowDepth="Depth3" />
+                <Button x:Name="btnagregar" Content="Agregar" HorizontalAlignment="Left" Margin="267,374,0,0" VerticalAlignment="Top" Width="112" Background="#FFFE0000" Foreground="White" Click="btnagregar_Click" materialDesign:ShadowAssist.ShadowDepth="Depth3" />
+                <Button x:Name="btnmodificar" Content="Modificar" HorizontalAlignment="Left" Margin="266,439,0,0" VerticalAlignment="Top" Width="112"  Background="#FFFE0000" Foreground="White" materialDesign:ShadowAssist.ShadowDepth="Depth3" />
+                <Image x:Name="Foto" HorizontalAlignment="Left" Height="202" VerticalAlignment="Top" Width="199" Canvas.Left="-28" Canvas.Top="288"/>
+                <Button x:Name="btncargar" Content="Cargar Img" HorizontalAlignment="Left" Margin="267,306,0,0" VerticalAlignment="Top" Width="113"  Background="#FFFE0000" Foreground="White" Click="btncargar_Click" materialDesign:ShadowAssist.ShadowDepth="Depth3"/>
+                <Button x:Name="btn" Content="Atras" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110"  Background="#FFFE0000" Foreground="White" Canvas.Left="266" Canvas.Top="632"  materialDesign:ShadowAssist.ShadowDepth="Depth3"/>
+                <TextBox x:Name="txtruta" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}" Canvas.Left="131" Canvas.Top="-16"/>
+                <ComboBox x:Name="cbespecialidad____Copy1" Controls:TextBoxHelper.Watermark="Especialidad" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Height="40" BorderBrush="White" Canvas.Left="241" Canvas.Top="202" materialDesign:HintAssist.Hint="Especialidad" materialDesign:HintAssist.IsFloating="True"/>
+                <ComboBox x:Name="cbPlanta" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Height="40" Canvas.Left="-19" Canvas.Top="202" BorderBrush="White" Foreground="#FFFDFDFD" materialDesign:HintAssist.Hint="Numero de Planta" materialDesign:HintAssist.IsFloating="True"/>
+                <DataGrid AutoGenerateColumns="False" x:Name="DGMedico" BorderBrush="#FFBFADAF" Height="708" VerticalAlignment="Top" Canvas.Left="470" Width="808" HorizontalGridLinesBrush="White" VerticalGridLinesBrush="#FF2D2C4D" GridLinesVisibility="Horizontal" AlternatingRowBackground="#FF353281" RowBackground="#FF2D2C4D" Background="#FF81BAD8" OpacityMask="White" FontWeight="Bold" FontFamily="Lucida Bright" FontStyle="Italic" TextOptions.TextFormattingMode="Display" TextOptions.TextHintingMode="Animated" >
+                    <DataGrid.BindingGroup>
+                        <BindingGroup/>
+                    </DataGrid.BindingGroup>
+                    <DataGrid.Foreground>
+                        <SolidColorBrush Color="White"/>
+                    </DataGrid.Foreground>
+                    <DataGrid.Effect>
+                        <DropShadowEffect/>
+                    </DataGrid.Effect>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding IdMedico}" Header="Codigo" IsReadOnly="True" Width="100"/>
+                        <DataGridTemplateColumn Header="Imagen" IsReadOnly="True" Width="110">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Image Source="{Binding Imagen}" Width="70" Height="70"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombres" IsReadOnly="True" Width="250"/>
+                        <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellidos" IsReadOnly="True" Width="250"/>
+                        <DataGridTextColumn Binding="{Binding Especialidad}" Header="Especialidad" IsReadOnly="True" Width="250"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <TextBox x:Name="txtnombre"  HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" BorderBrush="White" Canvas.Top="67" Canvas.Left="-19" materialDesign:HintAssist.Hint="Nombre" materialDesign:HintAssist.IsFloating="True" CaretBrush="White" SelectionBrush="White"/>
+            </Canvas>
+        </Controls:Flyout>
+    </Grid>
+</Controls:MetroWindow>

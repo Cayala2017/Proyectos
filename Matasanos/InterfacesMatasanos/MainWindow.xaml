@@ -1,0 +1,40 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+       
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="16"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        
+        FontFamily="{DynamicResource MaterialDesignFont}"                        
+        
+        Title="Login" Height="622.553" Width="886.702" UseNoneWindowStyle="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FF4317B8" Loaded="MetroWindow_Loaded" WindowStyle="None">
+    <Grid>
+
+        <Button x:Name="button" Content="Entrar" HorizontalAlignment="Left" Margin="510,338,0,0" VerticalAlignment="Top" Width="72" Height="32" Click="button_Click" Background="#FF1C0066" Foreground="White" BorderBrush="White"/>
+        <TextBox x:Name="txtNombreUser" HorizontalAlignment="Left" Height="44" Margin="440,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" Controls:TextBoxHelper.Watermark="Nombre de Usuario" BorderBrush="White" Foreground="White"/>
+       
+        
+        <PasswordBox x:Name="txtContrasena" HorizontalAlignment="Left" Margin="440,255,0,0" VerticalAlignment="Top" Width="220" Controls:TextBoxHelper.Watermark="Contraseña" Height="37" Foreground="White" BorderBrush="#89FFFFFF" CaretBrush="#89FFFFFF" SelectionBrush="White"/>
+        <Rectangle HorizontalAlignment="Left" Height="213" Margin="191,128,0,0" Stroke="Black" VerticalAlignment="Top" Width="211">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="IMG/287280_0aa2d999fc1845e08e6ab0045af6ffbe.jpg"/>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button Content="" HorizontalAlignment="Left" Margin="787,516,0,0" VerticalAlignment="Top" Width="49" Height="43" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="IMG/off_theapplication_3027.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Controls:MetroWindow>

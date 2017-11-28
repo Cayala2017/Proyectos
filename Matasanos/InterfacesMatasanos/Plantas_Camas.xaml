@@ -1,0 +1,47 @@
+﻿<Window x:Class="InterfacesMatasanos.Plantas_Camas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+        Title="Plantas_Camas" Height="436.827" Width="761.218">
+    <Grid Margin="0,0,2,4">
+        <TextBox x:Name="txtnombre" HorizontalAlignment="Left" Height="24" Margin="50,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116"/>
+        <TextBox x:Name="txtnumero" HorizontalAlignment="Left" Height="24" Margin="50,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.683,0.822"/>
+
+        <DataGrid AutoGenerateColumns="False" x:Name="dgplanta" Margin="10,151,0,0" BorderBrush="#FFFF002E" Height="169" VerticalAlignment="Top" HorizontalAlignment="Left" Width="329" OpacityMask="Black">
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdPlanta}" Header="Codigo" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombre" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding NumeroCamas}" Header="Nº Camas" IsReadOnly="True" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" x:Name="dgcama" Margin="408,151,0,0" BorderBrush="#FFFF002E" Height="169" VerticalAlignment="Top" HorizontalAlignment="Left" Width="329" OpacityMask="Black" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdCama}" Header="Codigo" IsReadOnly="True" Width="70"/>
+                <DataGridTextColumn Binding="{Binding FkPlanta}" Header="Codigo de planta" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtIdCama" HorizontalAlignment="Left" Height="24" Margin="408,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" />
+        <TextBox x:Name="txtfkplanta" HorizontalAlignment="Left" Height="24" Margin="486,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.683,0.822"/>
+        <Label x:Name="label" Content="Nombre" HorizontalAlignment="Left" Margin="81,28,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" Width="64" RenderTransformOrigin="0.516,0.833"/>
+        <Label x:Name="label1" Content="Numero De Camas" HorizontalAlignment="Left" Margin="50,84,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" Width="116"/>
+        <Label x:Name="label2" Content="IdCama" HorizontalAlignment="Left" Margin="440,35,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="24" Width="61"/>
+        <Label x:Name="label3" Content="planta" HorizontalAlignment="Left" Margin="529,73,0,0" VerticalAlignment="Top" FontWeight="Bold" Height="33" Width="50"/>
+        <Button x:Name="btnAgregarPlanta" Content="Agregar" HorizontalAlignment="Left" Margin="240,53,0,0" VerticalAlignment="Top" Width="89" Background="#FFFE0000" Foreground="White" Click="btnAgregarPlanta_Click"/>
+        <Button x:Name="btnModificarPlanta" Content="Modificar" HorizontalAlignment="Left" Margin="240,103,0,0" VerticalAlignment="Top" Width="89" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnEliminarPlanta" Content="Eliminar" HorizontalAlignment="Left" Margin="138,339,0,0" VerticalAlignment="Top" Width="75" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnAgregarCama" Content="Agregar" HorizontalAlignment="Left" Margin="638,62,0,0" VerticalAlignment="Top" Width="75" Background="#FFFE0000" Foreground="White" RenderTransformOrigin="0.12,0.552" Click="btnAgregarCama_Click"/>
+        <Button x:Name="btnModificarCama" Content="Modificar" HorizontalAlignment="Left" Margin="638,106,0,0" VerticalAlignment="Top" Width="89" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnEliminarCama" Content="Eliminar" HorizontalAlignment="Left" Margin="527,339,0,0" VerticalAlignment="Top" Width="75" Background="#FFFE0000" Foreground="White"/>
+        <Button x:Name="btnatras" Content="Atras" HorizontalAlignment="Left" Margin="348,363,0,0" VerticalAlignment="Top" Width="75" Background="#FFFE0000" Foreground="White" Click="btnatras_Click"/>
+
+    </Grid>
+</Window>

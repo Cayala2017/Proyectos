@@ -1,0 +1,53 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.Historia1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+     xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+
+                      
+        Title="Historia" Height="770" Width="1370" Activated="MetroWindow_Activated" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <GroupBox Margin="10,59,852,273" Background="#FFFE0000" Header="DATOS DEL PACIENTE">
+            <Canvas>
+                <Label x:Name="label" Content="Numero" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="41" Canvas.Top="18" FontWeight="Bold"/>
+                <Label x:Name="label1" Content="Apellidos" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="41" Canvas.Top="76" FontWeight="Bold"/>
+                <Label x:Name="label3" Content="Nombres" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="41" Canvas.Top="134" FontWeight="Bold"/>
+                <Label x:Name="label4" Content="Fecha Entrada" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="41" Canvas.Top="196" FontWeight="Bold"/>
+                <Label x:Name="labels" Content="Fecha Salida" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="41" Canvas.Top="259" FontWeight="Bold"/>
+
+            </Canvas>
+        </GroupBox>
+        <TextBox x:Name="txtid" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}" CaretBrush="{x:Null}" />
+        <TextBox x:Name="txtseguro" HorizontalAlignment="Left" Height="23" Margin="57,138,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="143" Controls:TextBoxHelper.Watermark="Numero" BorderBrush="#FFFB0505"/>
+        <DatePicker x:Name="DTfechaEntrada" HorizontalAlignment="Left" Margin="57,318,0,0" VerticalAlignment="Top" Width="143" BorderBrush="#FFFB0505"/>
+
+
+        <DatePicker x:Name="DTfechasalida" HorizontalAlignment="Left" Margin="57,383,0,0" VerticalAlignment="Top" BorderBrush="#FFFB0505"/>
+        <Button x:Name="button" Content="Agregar Historia" HorizontalAlignment="Left" Margin="330,190,0,0" VerticalAlignment="Top" Width="159" Click="button_Click" BorderBrush="#FFFD0303" Background="#FFF90606" Foreground="White" RenderTransformOrigin="0.256,0.483" />
+
+
+        <DataGrid AutoGenerateColumns="False" x:Name="DGHistorial" Margin="599,59,0,0" BorderBrush="#FFFF002E" Height="426" VerticalAlignment="Top" HorizontalAlignment="Left" Width="728" MouseDoubleClick="DGHistorial_MouseDoubleClick" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding FechaEntrada}" Header="Entrada" IsReadOnly="True" Width="130"/>
+                <DataGridTextColumn Binding="{Binding FechaAsignacion}" Header="Fecha Alta" IsReadOnly="True" Width="130"/>
+                <DataGridTextColumn Binding="{Binding FkNumeroSeguro}" Header="Numero Seguro" IsReadOnly="True" Width="130"/>
+                <DataGridTextColumn Binding="{Binding NombreP}" Header="Nombre" IsReadOnly="True" Width="170"/>
+                <DataGridTextColumn Binding="{Binding ApellidoP}" Header="Apellido" IsReadOnly="True" Width="170"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="lNombre" Controls:TextBoxHelper.Watermark="Nombre" HorizontalAlignment="Left" Margin="57,259,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.316,0.577" Width="143" BorderBrush="#FFF50808"/>
+        <TextBox x:Name="lApellido" Controls:TextBoxHelper.Watermark="Apellido" HorizontalAlignment="Left" Margin="57,197,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.316,0.577" Width="143" BorderBrush="#FFF50808"/>
+        <Button x:Name="button1" Content="Seleccionar Paciente" HorizontalAlignment="Left" Margin="330,134,0,0" VerticalAlignment="Top" Width="159" Click="button1_Click" Background="#FFF50808" BorderBrush="#FFF72929" Foreground="White"/>
+        <Button x:Name="btnIngresar" Content="AsignarCama" HorizontalAlignment="Left" Margin="856,519,0,0" VerticalAlignment="Top" Width="229" Click="btnIngresar_Click" Background="#FFF50808" BorderBrush="#FFF72929" Foreground="White" Height="67"/>
+        <Button x:Name="button2" Content="Atras" HorizontalAlignment="Left" Margin="57,656,0,0" VerticalAlignment="Top" Width="200" Background="#FFF50808" Foreground="White" Height="47" Click="button2_Click"/>
+
+    </Grid>
+</Controls:MetroWindow>

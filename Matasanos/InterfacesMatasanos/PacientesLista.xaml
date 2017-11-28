@@ -1,0 +1,38 @@
+﻿<Window x:Class="InterfacesMatasanos.PacientesLista"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+        Title="PacientesLista" Height="520.973" Width="708.27" AllowsTransparency="True" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" Background="#FF030040">
+    <Grid Margin="0,0,0,21">
+        <Grid.Background>
+            <ImageBrush ImageSource="IMG/Sin título-5.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="32*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtBuscar" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="320,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnBuscar" Content="Buscar" Grid.Column="1" HorizontalAlignment="Left" Margin="463,24,0,0" VerticalAlignment="Top" Width="107" Background="#FFFE0000" Foreground="White" Click="btnBuscar_Click"/>
+        <DataGrid AutoGenerateColumns="False" x:Name="DGHistoriales" Margin="0,117,0,0" BorderBrush="#FFFF002E" Height="340" VerticalAlignment="Top" HorizontalAlignment="Left" Width="708"  Grid.ColumnSpan="2" MouseDoubleClick="DGHistorial_MouseDoubleClick" >
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdNumeroSeguro}" Header="Numer Seguro" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellidos" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombres" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding Dni}" Header="Dni" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Binding="{Binding FechaNacimiento}" Header="Nacimiento" IsReadOnly="True" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="txtId" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="10,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txtId_TextChanged"/>
+        <TextBox x:Name="txtNombre" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="53,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button" Content="Enviar Datos" Grid.Column="1" HorizontalAlignment="Left" Margin="199,68,0,0" VerticalAlignment="Top" Width="104" Click="button_Click" Background="#FFC02000" Foreground="White"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Height="23" Margin="82,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button x:Name="button_Copy" Content="Cancelar" Grid.Column="1" HorizontalAlignment="Left" Margin="463,71,0,0" VerticalAlignment="Top" Width="104" Background="#FFC02000" Foreground="White" Click="button_Copy_Click"/>
+
+    </Grid>
+</Window>

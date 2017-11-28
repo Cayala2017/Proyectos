@@ -1,0 +1,22 @@
+﻿<Window x:Class="Interfaces.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interfaces"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Image x:Name="_3_png" Margin="301,373,-184,-454" Source="3.png" Stretch="Fill"/>
+        <Image x:Name="_4_png" Margin="301,373,-184,-454" Source="4.png" Stretch="Fill"/>
+        <Image x:Name="FondoFinal_jpg" Margin="301,373,-1150,-824" Source="FondoFinal.jpg" Stretch="Fill"/>
+        <Image x:Name="FondoSinLuz_jpg" Margin="301,373,-1150,-824" Source="FondoSinLuz.jpg" Stretch="Fill"/>
+        <Image x:Name="LogoWe_png" Margin="301,373,-184,-454" Source="LogoWe.png" Stretch="Fill"/>
+        <Image x:Name="Sin_título_4_png" Margin="301,373,-484,-454" Source="Sin título-4.png" Stretch="Fill"/>
+        <Image x:Name="Sin_título_5_png" Margin="301,373,-484,-454" Source="Sin título-5.png" Stretch="Fill"/>
+        <Image x:Name="Wola1_png" Margin="301,373,-411,-489" Source="Wola1.png" Stretch="Fill"/>
+        <Image x:Name="_1_png" Margin="301,373,-184,-454" Source="1.png" Stretch="Fill"/>
+        <Image x:Name="_2_png" Margin="301,373,-184,-454" Source="2.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>

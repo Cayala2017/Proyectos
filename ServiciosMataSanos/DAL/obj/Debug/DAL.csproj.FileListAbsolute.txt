@@ -1,0 +1,36 @@
+V:\ServiciosMataSanos\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+V:\ServiciosMataSanos\DAL\bin\Debug\DAL.dll
+V:\ServiciosMataSanos\DAL\bin\Debug\DAL.pdb
+V:\ServiciosMataSanos\DAL\bin\Debug\EN.dll
+V:\ServiciosMataSanos\DAL\bin\Debug\EN.pdb
+V:\ServiciosMataSanos\DAL\obj\Debug\DAL.dll
+V:\ServiciosMataSanos\DAL\obj\Debug\DAL.pdb
+F:\ServiciosMataSanos\DAL\bin\Debug\DAL.dll
+F:\ServiciosMataSanos\DAL\bin\Debug\DAL.pdb
+F:\ServiciosMataSanos\DAL\bin\Debug\EN.dll
+F:\ServiciosMataSanos\DAL\bin\Debug\EN.pdb
+F:\ServiciosMataSanos\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\ServiciosMataSanos\DAL\obj\Debug\DAL.dll
+F:\ServiciosMataSanos\DAL\obj\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\obj\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\sistemapàra arreglar\ServiciosMataSanos\DAL\obj\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\DAL.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\EN.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\EN.pdb
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.dll
+C:\Users\Vladimir\Desktop\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\DAL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\DAL.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\EN.dll
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\bin\Debug\EN.pdb
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.dll
+D:\Sistema Arreglado\ServiciosMataSanos\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,69 @@
+﻿<Controls:MetroWindow x:Class="InterfacesMatasanos.Medicos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InterfacesMatasanos"
+        mc:Ignorable="d"
+         xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+     xmlns:behaviours="clr-namespace:MahApps.Metro.Behaviours;assembly=MahApps.Metro"
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        
+        
+        
+        Title="Medicos" Height="770" Width="1370" Background="White" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <Image x:Name="Foto" HorizontalAlignment="Left" Height="202" Margin="42,288,0,0" VerticalAlignment="Top" Width="202">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="IMG/usuario-masculino-silueta-negro_318-50205.jpg"/>
+            </Image.OpacityMask>
+        </Image>
+        <DataGrid AutoGenerateColumns="False" x:Name="DGMedico" Margin="496,31,40,0" BorderBrush="#FFFF0023" Height="668" VerticalAlignment="Top" MouseDoubleClick="DGMedico_MouseDoubleClick" >
+            <DataGrid.Foreground>
+                <SolidColorBrush Color="Black"/>
+            </DataGrid.Foreground>
+            <DataGrid.Effect>
+                <DropShadowEffect Opacity="0.5"/>
+            </DataGrid.Effect>
+            <DataGrid.Background>
+                <ImageBrush ImageSource="IMG/Wola1.png"/>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding IdMedico}" Header="Codigo" IsReadOnly="True" Width="100"/>
+                <DataGridTemplateColumn Header="Imagen" IsReadOnly="True" Width="110">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Imagen}" Width="70" Height="70"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding Nombre}" Header="Nombres" IsReadOnly="True" Width="250"/>
+                <DataGridTextColumn Binding="{Binding Apellido}" Header="Apellidos" IsReadOnly="True" Width="250"/>
+                <DataGridTextColumn Binding="{Binding Especialidad}" Header="Especialidad" IsReadOnly="True" Width="250"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <GroupBox Margin="10,26,914,234" Background="#FFFE0000" Header="DATOS DEL MEDICO">
+            <ComboBox x:Name="cbespecialidad____Copy1" Controls:TextBoxHelper.Watermark="Especialidad" HorizontalAlignment="Left" Margin="231,160,0,0" VerticalAlignment="Top" Width="166" Height="30" BorderBrush="#FFFB0404" SelectionChanged="cbespecialidad____SelectionChanged"/>
+        </GroupBox>
+        <GroupBox Margin="10,529,914,10" Background="#FFFE0000" Header="BUSCAR Y ELIMINAR MEDICOS"></GroupBox>
+        <TextBox x:Name="txtid"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}"/>
+        <TextBox x:Name="txtapellido" Controls:TextBoxHelper.Watermark="Apellido" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167" Margin="42,167,0,0" BorderBrush="#FFFE0000"/>
+        <TextBox x:Name="txtnombre" Controls:TextBoxHelper.Watermark="Nombre" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167" Margin="42,105,0,0" Background="White" BorderBrush="#FFFE0000" SnapsToDevicePixels="True" AllowDrop="True" IsHitTestVisible="True" SelectionChanged="txtnombre_SelectionChanged" TextChanged="txtnombre_TextChanged" SpellCheck.IsEnabled="True"/>
+        <TextBox x:Name="txtnombreusuario" Controls:TextBoxHelper.Watermark="Nombre Usuario" HorizontalAlignment="Left" Height="23" Margin="244,105,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167" BorderBrush="#FFFE0000"/>
+        <TextBox x:Name="txtbuscar" Controls:TextBoxHelper.Watermark="Buscar Por Especialidad"  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167" Margin="53,595,0,0" BorderBrush="#FFFE0000"/>
+        <TextBox x:Name="txteliminar" Controls:TextBoxHelper.Watermark="Eliminar Por Id "  HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="174" Margin="53,637,0,0" BorderBrush="#FFFE0000"/>
+        <PasswordBox x:Name="txtcontr" Controls:TextBoxHelper.Watermark="Contraseña" HorizontalAlignment="Left" Margin="244,167,0,0" VerticalAlignment="Top" Width="167" BorderBrush="#FFFE0000"/>
+        <Button x:Name="btnbuscar" Content="Buscar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="112" Margin="267,595,0,0" Click="btnbuscar_Click" Foreground="White" Background="#FFFE0000" />
+        <Button x:Name="btneliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="267,637,0,0" VerticalAlignment="Top" Width="112" Click="btneliminar_Click" Background="#FFFE0000" Foreground="White" />
+        <Button x:Name="btnagregar" Content="Agregar" HorizontalAlignment="Left" Margin="267,374,0,0" VerticalAlignment="Top" Width="112" Click="btnagregar_Click" Background="#FFFE0000" Foreground="White" />
+        <Button x:Name="btnmodificar" Content="Modificar" HorizontalAlignment="Left" Margin="266,439,0,0" VerticalAlignment="Top" Width="112" Click="btnmodificar_Click" Background="#FFFE0000" Foreground="White" />
+        <Button x:Name="btncargar" Content="Cargar Img" HorizontalAlignment="Left" Margin="267,306,0,0" VerticalAlignment="Top" Width="113" Click="btncargar_Click" Background="#FFFE0000" Foreground="White" />
+        <Button x:Name="btn" Content="Atras" HorizontalAlignment="Left" Margin="81,679,0,0" VerticalAlignment="Top" Width="113"  Background="#FFFE0000" Foreground="White" Click="btn_Click" />
+        <TextBox x:Name="txtruta" HorizontalAlignment="Left" Height="23" Margin="0,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" Background="{x:Null}" BorderBrush="{x:Null}" CaretBrush="{x:Null}" Foreground="{x:Null}" SelectionBrush="{x:Null}"/>
+        <Label x:Name="pruebalb" Content="Nombre" HorizontalAlignment="Left" Margin="91,74,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="Apellido" Content="Apellido" HorizontalAlignment="Left" Margin="91,141,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="NombreUsuario" Content="Nombre de Usuario" HorizontalAlignment="Left" Margin="267,74,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="Contraseña" Content="Contraseña" HorizontalAlignment="Left" Margin="287,141,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <ComboBox x:Name="cbPlanta" HorizontalAlignment="Left" Margin="42,216,0,0" VerticalAlignment="Top" Width="167" Height="30"/>
+    </Grid>
+</Controls:MetroWindow>

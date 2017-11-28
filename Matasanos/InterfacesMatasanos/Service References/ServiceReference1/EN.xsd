@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EN" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EN" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="UsuarioEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contrasena" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FDUI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdUsuario" type="xs:long" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioEN" nillable="true" type="tns:UsuarioEN" />
+  <xs:complexType name="ArrayOfUsuarioEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UsuarioEN" nillable="true" type="tns:UsuarioEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUsuarioEN" nillable="true" type="tns:ArrayOfUsuarioEN" />
+  <xs:complexType name="MedicoEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellido" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Contrasena" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Especialidad" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FkPlanta" type="xs:long" />
+      <xs:element minOccurs="0" name="IdMedico" type="xs:long" />
+      <xs:element minOccurs="0" name="Imagen" nillable="true" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NombreUsuario" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MedicoEN" nillable="true" type="tns:MedicoEN" />
+  <xs:complexType name="ArrayOfMedicoEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MedicoEN" nillable="true" type="tns:MedicoEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMedicoEN" nillable="true" type="tns:ArrayOfMedicoEN" />
+  <xs:complexType name="EnfermeraEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellido" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DUI" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EnfermeraEN" nillable="true" type="tns:EnfermeraEN" />
+  <xs:complexType name="ArrayOfEnfermeraEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EnfermeraEN" nillable="true" type="tns:EnfermeraEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEnfermeraEN" nillable="true" type="tns:ArrayOfEnfermeraEN" />
+  <xs:complexType name="HistorialEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ApellidoP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DniP" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaAlta" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaEntrada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FkNumeroSeguro" type="xs:long" />
+      <xs:element minOccurs="0" name="IdHistorial" type="xs:long" />
+      <xs:element minOccurs="0" name="NombreP" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="HistorialEN" nillable="true" type="tns:HistorialEN" />
+  <xs:complexType name="ArrayOfHistorialEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="HistorialEN" nillable="true" type="tns:HistorialEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfHistorialEN" nillable="true" type="tns:ArrayOfHistorialEN" />
+  <xs:complexType name="CamaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FkPlanta" type="xs:long" />
+      <xs:element minOccurs="0" name="IdCama" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CamaEN" nillable="true" type="tns:CamaEN" />
+  <xs:complexType name="ArrayOfCamaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CamaEN" nillable="true" type="tns:CamaEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCamaEN" nillable="true" type="tns:ArrayOfCamaEN" />
+  <xs:complexType name="PacienteEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellido" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Dni" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaNacimiento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdNumeroSeguro" type="xs:long" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PacienteEN" nillable="true" type="tns:PacienteEN" />
+  <xs:complexType name="ArrayOfPacienteEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PacienteEN" nillable="true" type="tns:PacienteEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPacienteEN" nillable="true" type="tns:ArrayOfPacienteEN" />
+  <xs:complexType name="PacienteCamaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FechaAsignada" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FkCama" type="xs:long" />
+      <xs:element minOccurs="0" name="FkHistoria" type="xs:long" />
+      <xs:element minOccurs="0" name="IdPacienteCama" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PacienteCamaEN" nillable="true" type="tns:PacienteCamaEN" />
+  <xs:complexType name="ArrayOfPacienteCamaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PacienteCamaEN" nillable="true" type="tns:PacienteCamaEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPacienteCamaEN" nillable="true" type="tns:ArrayOfPacienteCamaEN" />
+  <xs:complexType name="VisitaMedicaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Daignostico" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FechaVisita" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FkMedico" type="xs:long" />
+      <xs:element minOccurs="0" name="FkPacienteCama" type="xs:long" />
+      <xs:element minOccurs="0" name="HoraVisita" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="VisitaMedicaEN" nillable="true" type="tns:VisitaMedicaEN" />
+  <xs:complexType name="ArrayOfVisitaMedicaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="VisitaMedicaEN" nillable="true" type="tns:VisitaMedicaEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVisitaMedicaEN" nillable="true" type="tns:ArrayOfVisitaMedicaEN" />
+  <xs:complexType name="PlantaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IdPlanta" type="xs:long" />
+      <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroCamas" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PlantaEN" nillable="true" type="tns:PlantaEN" />
+  <xs:complexType name="ArrayOfPlantaEN">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PlantaEN" nillable="true" type="tns:PlantaEN" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPlantaEN" nillable="true" type="tns:ArrayOfPlantaEN" />
+</xs:schema>
